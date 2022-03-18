@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Timo
+	email = 38291523+lovetodream@users.noreply.github.com
+	signingkey = 1A11C9E4
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = ~/.gitignore_global
