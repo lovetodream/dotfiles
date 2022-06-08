@@ -19,10 +19,6 @@ These are my personal configuration files, I need these to configure my Mac comp
 
 - Brewfile (Software and Command Line Tools I use)
 
-### Vim Config
-
-- .viminfo
-
 ### ZSH Config
 
 - .zlogin
