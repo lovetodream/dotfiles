@@ -6,10 +6,12 @@
 [user]
 	name = Timo
 	email = 38291523+lovetodream@users.noreply.github.com
-	signingkey = 1A11C9E4
+	signingkey = some-key-id
 [gpg]
 	program = /opt/homebrew/bin/gpg
 [commit]
 	gpgsign = true
 [core]
 	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
