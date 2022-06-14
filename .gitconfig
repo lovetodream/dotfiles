@@ -10,8 +10,10 @@
 [gpg]
 	program = /opt/homebrew/bin/gpg
 [commit]
-	gpgsign = true
+	gpgSign = true
 [core]
 	excludesfile = ~/.gitignore_global
 [init]
 	defaultBranch = main
+[tag]
+	gpgSign = true
