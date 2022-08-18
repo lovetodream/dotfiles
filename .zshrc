@@ -116,6 +116,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias art="php artisan"
 
 export GPG_TTY=$(tty)
 gpgconf --launch gpg-agent
@@ -128,7 +129,7 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.mint/bin:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.composer/vendor/bin:$HOME/.mint/bin:$HOME/.rvm/bin"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
