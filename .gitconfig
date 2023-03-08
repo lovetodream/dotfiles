@@ -17,3 +17,7 @@
 	defaultBranch = main
 [tag]
 	gpgSign = true
+[pull]
+
+[includeIf "gitdir:~/Projects/JOCR/"]
+	path = ~/gitlab/.gitconfig
